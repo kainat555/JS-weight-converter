@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>JS Weight Converter</title>
+</head>
+
+<body>
+    <div class="section text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="display-4 mt-5">Weight Converter</h1>
+                <form>
+                    <div class="form-group">
+                        <input type="number" class="form-control" id="kg" placeholder="Enter weight in kilograms..">
+                    </div>
+                </form>
+                <div class="output">
+                    <div class="card text-white bg-primary mb-3" style="max-width: 30rem;">
+                        <div class="card-body">
+                            <h5>Grams</h5>
+                            <p class="card-text" id="gm"></p>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-success mb-3" style="max-width: 30rem;">
+                        <div class="card-body">
+                            <h5>Pounds</h5>
+                            <p class="card-text" id="pounds"></p>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-danger mb-3" style="max-width: 30rem;">
+                        <div class="card-body">
+                            <h5>Ounces</h5>
+                            <p class="card-text" id="oz"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+<script src="app.js"></script>
+
+</html>

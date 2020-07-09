@@ -1,0 +1,11 @@
+*{
+    margin: 0 auto;
+}
+
+body{
+    background-color: aqua !important;
+}
+
+input{
+    height: 50px !important;
+}
